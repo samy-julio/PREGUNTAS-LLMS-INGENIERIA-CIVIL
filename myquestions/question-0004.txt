@@ -1,0 +1,14 @@
+El Problema:
+
+Recibes un DataFrame con coordenadas (x, y) de puntos que representan daños en una estructura.
+
+Tu Misión:
+
+Escribe una función llamada agrupar_danos(df, n_clusters) que:
+
+1. Seleccione las columnas x e y.
+2. Aplique KMeans de sklearn con n_clusters.
+3. Asigne una etiqueta de cluster a cada punto.
+4. Devuelva un numpy array con las etiquetas de cluster.
+
+Salida: array de tamaño (n_samples,)

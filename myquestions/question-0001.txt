@@ -1,0 +1,20 @@
+El Problema:
+
+Recibes un DataFrame con registros de niveles de agua en diferentes estaciones de monitoreo de un río. El DataFrame contiene las columnas:
+
+- station_id
+- timestamp
+- water_level
+
+Tu Misión:
+
+Escribe una función llamada calcular_alertas_creciente(df, umbral) que:
+
+1. Convierta la columna timestamp a formato datetime si no lo está.
+2. Ordene los datos por station_id y timestamp.
+3. Calcule la diferencia de nivel de agua entre mediciones consecutivas por estación.
+4. Cree una columna llamada "incremento" con estas diferencias.
+5. Cree una columna booleana "alerta" que sea True cuando el incremento sea mayor que el umbral.
+6. Devuelva el DataFrame con las nuevas columnas incluidas.
+
+Salida: DataFrame modificado.

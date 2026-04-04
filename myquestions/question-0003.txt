@@ -1,0 +1,15 @@
+El Problema:
+
+Recibes un DataFrame con variables relacionadas con el diseño de pavimentos y una variable objetivo llamada "deflection".
+
+Tu Misión:
+
+Escribe una función llamada evaluar_modelo_pavimento(df, target_col) que:
+
+1. Separe X e y usando target_col.
+2. Seleccione solo columnas numéricas.
+3. Divida los datos en entrenamiento y prueba (80/20).
+4. Entrene un modelo DecisionTreeRegressor de sklearn.
+5. Calcule el error absoluto medio (MAE) en el conjunto de prueba.
+
+Salida: valor del MAE (float).

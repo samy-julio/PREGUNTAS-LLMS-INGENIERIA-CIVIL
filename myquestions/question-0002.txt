@@ -1,0 +1,25 @@
+El Problema:
+
+Recibes un DataFrame con resultados de ensayos de suelos. Contiene:
+
+- sample_id
+- depth
+- unit_weight
+- moisture_content
+
+Tu Misión:
+
+Escribe una función llamada calcular_perfil_suelo(df) que:
+
+1. Agrupe los datos por sample_id.
+2. Para cada grupo, calcule:
+   - profundidad máxima
+   - promedio de unit_weight
+   - promedio de moisture_content
+3. Devuelva un nuevo DataFrame con columnas:
+   - sample_id
+   - max_depth
+   - avg_unit_weight
+   - avg_moisture
+
+Salida: DataFrame resumido.
